@@ -1,9 +1,7 @@
 package main
 
-import "fmt"
-
 func main() {
-	var a = 3
-	var b = 4
-	fmt.Println("Product of the number is ", (a * b))
+
+	var arr = [5]int{2, 3, 4, 5, 6}
+
 }
