@@ -1,0 +1,32 @@
+																						Git & GitHub 
+mkdir: To create new folder cd:  To move inside the folder
+ls -a : to see the hidden files touch filename.type(name.txt): to create new file rm -rf name.txt: to remove folder. vi name.txt:  to add something in this file. (Esc:wq for exit) cat name.txt:Display whatever in this file.
+
+
+Git —version—>to check the git version. git config —global  user.name “aayush”//to set your name
+git config  —global user.email “aayush19.kumar@gmail.com” //to set your email. git config —global user.email—>To check your email. git config —global —edit // another way to set your name and email(after saving esc:wq type to exit)
+git init// to make folder as a repository git status// to see the changes in file git add file_name//write this line before commit git add . // to bring all your file before committing stage  git commit -m “some meaningful message”//to commit  git log//to see all commits command+k //to clear terminal git checkout  (paste commit id )//to go back to any commit git checkout master/main //to come back to the position where you have moved back git branch// to see the branch git branch branchname(dev)// to create new branch
+git checkout dev//to come on this branch git checkout -b aayush/branchname// another way of creating branch 
+git merge dev// this line will merge all the things which I have done in the aayush/branchname repository to dev branch .gitignore file(another way to create this file is write in terminal in the branch where you want to create touch .gitignore)//whatever is in this file git will ignore it because of security(anything that you don’t want to that  git will push write in .gitigone file) *Now go on git hub create new repository after that  …or create a new repository on the command line
+
+echo "# LearningGit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Aayush19kumar/LearningGit.git
+git push -u origin main
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/Aayush19kumar/LearningGit.git
+git branch -M main
+git push -u origin main
+
+
+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   git restore —staged name.txt: to remove from being stored in the history(first bring file to stage by doing git add filename).
+Git reset (paste commit): to go to the desired updated code. git stash: To store all changes in a separate place and whenever we want we can access.(first bring file by doing git add filename). git stash pop: to add in the name.txt git stash clear: to delete the separate area code. git remote add origin (paste url from git hub): Now this url is connected with this folder.
+Git remoter -v: Show all the url attached with this folder.
+Fork: To do changes into the code uploaded by someone. git clone (paste url): code will be copied to your system.
+git pull origin barncname: The term pull is used to receive data from GitHub. It fetches and merges changes from the remote server to your working directory.
+
+
