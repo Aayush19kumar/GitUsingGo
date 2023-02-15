@@ -1,4 +1,5 @@
-																						Git & GitHub 
+																						
+Git & GitHub 
 mkdir: To create new folder cd:  To move inside the folder
 ls -a : to see the hidden files touch filename.type(name.txt): to create new file rm -rf name.txt: to remove folder. vi name.txt:  to add something in this file. (Esc:wq for exit) cat name.txt:Display whatever in this file.
 
@@ -20,7 +21,7 @@ git push -u origin main
 
 git remote add origin https://github.com/Aayush19kumar/LearningGit.git
 git branch -M main
-git push -u origin main
+git push -u origin main.
 
 
 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   git restore —staged name.txt: to remove from being stored in the history(first bring file to stage by doing git add filename).
