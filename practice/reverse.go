@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Enter a no.")
+	fmt.Println("Enter testing no.")
 	var n int
 	fmt.Scan(&n)
 	var ans = 0
